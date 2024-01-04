@@ -1,10 +1,4 @@
-
-  
-Entendido, si estás buscando crear un archivo `README.md` para documentar tu sistema web y el proyecto está basado en Docusaurus, aquí tienes una plantilla que puedes usar como punto de partida:
-
-markdownCopy code
-
-`# Sistema Web
+# Sistema Web
 
 Bienvenidos al repositorio del Sistema Web Combex-IM. Este sistema es una solución integral diseñada para optimizar los procesos internos y ofrecer una experiencia de usuario robusta y eficiente.
 
