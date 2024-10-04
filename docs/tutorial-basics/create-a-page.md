@@ -2,33 +2,33 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Pruebas Unitarias
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Las pruebas unitarias se enfocan en probar componentes individuales del código. Estas pruebas se suelen automatizar.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## Ejemplo de Prueba Unitaria en Java usando JUnit
 
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
 
 ```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+import org.junit.Test;
+import static org.junit.Assert.*;
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
+public class CalculadoraTest {
+    @Test
+    public void testSuma() {
+        Calculadora calc = new Calculadora();
+        assertEquals(5, calc.sumar(2, 3));
+    }
 }
 ```
+Enlace sugerido de documentacion oficial de [JUnit](https://en.wikipedia.org/wiki/Systems_development_life_cycle)
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+**Pruebas Funcionales**
+Estas pruebas verifican si el sistema cumple con los requisitos funcionales. A menudo se hacen pruebas manuales o automatizadas en esta etapa.
+
+**Herramienta recomendada:** Selenium, que permite automatizar pruebas funcionales en navegadores web.
+
+Guia de [Selenium](https://es.parasoft.com/blog/selenium-hacks-for-beginners/)
 
 ## Create your first Markdown Page
 

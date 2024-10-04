@@ -4,32 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '¿Qué es el aseguramiento de la calidad del software?',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        El aseguramiento de la calidad (QA) es el proceso de garantizar que el software cumpla con
+         los requisitos establecidos y esté libre de defectos antes de su lanzamiento.
+          Incluye actividades de control de calidad y pruebas.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Importancia del QA en el desarrollo de software',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Un proceso efectivo de QA minimiza el riesgo de errores costosos, mejora la experiencia del 
+        usuario y asegura que el software sea confiable y seguro
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Principales técnicas de aseguramiento de la calidad',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+Algunas de las técnicas clave incluyen pruebas funcionales, pruebas de integración, pruebas unitarias,
+ revisiones de código, y pruebas automatizadas.
       </>
     ),
   },

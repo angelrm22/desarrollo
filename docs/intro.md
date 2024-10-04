@@ -2,22 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Tutorial 1: Introducción al Aseguramiento de Calidad
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Descripcion: **El aseguramiento de la calidad del software (QA) es un proceso que garantiza que el software cumple con los estándares de calidad definidos.**.
 
-## Getting Started
+## ¿QUE ES EL QA?
 
-Get started by **creating a new site**.
+El QA se centra en prevenir defectos durante el desarrollo del software mediante la implementación de procesos y estándares de calidad. Esto se logra a través de una serie de actividades como revisiones de código, pruebas manuales y automatizadas.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Ciclo de vida del desarrollo de software (SDLC)
 
-### What you'll need
+El SDLC es una estructura utilizada por equipos de desarrollo para planificar, diseñar, construir, probar y entregar software de alta calidad. Existen diferentes modelos del SDLC como:
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Modelo en Cascada:** Fases secuenciales como requisitos, diseño, implementación, pruebas, despliegue y   mantenimiento.
+  - **Modelo Ágil:** Ciclos iterativos, donde las pruebas y el desarrollo se realizan en paralelo.
 
-## Generate a new site
+[SDLC](https://en.wikipedia.org/wiki/Systems_development_life_cycle) Mas información sobre SDLC
+
+<!-- ## Generate a new site
 
 Generate a new Docusaurus site using the **classic template**.
 
@@ -44,4 +46,4 @@ The `cd` command changes the directory you're working with. In order to work wit
 
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes. -->

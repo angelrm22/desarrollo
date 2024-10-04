@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "Tutorial 2: Técnicas de Pruebas de Software",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Existen diferentes tipos de pruebas de software, cada una con un propósito distinto para garantizar la calidad del software"
   }
 }

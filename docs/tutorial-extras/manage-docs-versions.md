@@ -2,15 +2,14 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Jira para Gestión de QA
 
-Docusaurus can manage multiple versions of your docs.
+Jira es una herramienta ampliamente utilizada para gestionar proyectos y errores, ideal para equipos que trabajan con metodologías ágiles.
 
-## Create a docs version
+## Ejemplo de Automatización de Pruebas con Selenium (Python)
 
-Release a version 1.0 of your project:
 
-```bash
+<!-- ```bash
 npm run docusaurus docs:version 1.0
 ```
 
@@ -25,31 +24,28 @@ Your docs now have 2 versions:
 
 To navigate seamlessly across versions, add a version dropdown.
 
-Modify the `docusaurus.config.js` file:
+Modify the `docusaurus.config.js` file: -->
 
 ```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          //type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
+module.exports = 
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get("http://www.example.com")
+assert "Example Domain" in driver.title
+elem = driver.find_element_by_name("q")
+elem.send_keys("automatización QA")
+elem.send_keys(Keys.RETURN)
+driver.close()
+
 ```
 
-The docs version dropdown appears in your navbar:
+Enlace sugerido Tutorial [Selenium](https://selenium-python.readthedocs.io/)
 
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
-
-## Update an existing version
+<!-- ## Update an existing version
 
 It is possible to edit versioned docs in their respective folder:
 
 - `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+- `docs/hello.md` updates `http://localhost:3000/docs/next/hello` -->
